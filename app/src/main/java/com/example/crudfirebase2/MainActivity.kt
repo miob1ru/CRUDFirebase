@@ -6,12 +6,11 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
+import com.firebase.ui.auth.AuthUI
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 
-implementation 'com.google.firebase:firebase-auth:19.3.1'
-implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     //Membuat Kode Permintaan
