@@ -34,10 +34,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.getId()) {
-            R.id.save -&gt; {
+            R.id.save -> {
 // Statement program untuk simpan data
             }
-            R.id.logout -&gt;
+            R.id.logout ->
 // Statement program untuk logout/keluar
                 AuthUI.getInstance()
                     .signOut(this)
